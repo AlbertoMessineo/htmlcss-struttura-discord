@@ -199,7 +199,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 .footer-container{
     display: flex;
@@ -224,6 +224,16 @@ footer{
     width: 15%;
     border: dashed white;
 }
+/*--------FOOTER---------------*/
+
+footer2{
+    background-color: #23272a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+}
 
 .sub-section1{
     display: flex;
@@ -238,9 +248,12 @@ footer{
     align-items: center;
     background-color: #7fffd4;
     height: 110px ;
+    width: 1250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 .button{
-    background-color: #ffb6c1;
+    color: #ffb6c1;
 }
     
-/*--------FOOTER---------------*/
