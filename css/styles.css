@@ -9,36 +9,88 @@
 
 
 
+/*---------PRIMA SEZIONE----------
+----------------------------------*/
 
 header{
     background-color: #add8e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .box{
     background-color: #daa520;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20% ;
-    margin-right: 20% ;
     width: 1250px;
     height: 50px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
     border-color: black;
     border: dashed;
-}
-
-.flex-item{
-    
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}    
    
-}
-.bigger-box{
+.sub-section{
     background-color: #00008b ;
     display: flex;
     justify-content: center;
-    width: 100vh;
-    height: 250px ;
+    width: 100%;
+    height: 520px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
 }
+
+.bigger-box{
+    background-color: #ee82ee;
+    width: 950px;
+    height: 420px;
+    border: dashed black;
+}
+
+/*---------PRIMA SEZIONE----------
+----------------------------------*/
+
+
+/*-------SECONDA SEZIONE----------
+----------------------------------*/
+
+
+.even{
+    background-color: white;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    width: 1250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box1{  
+    width: 60%;
+    height: 520px;
+    background-color:#1e90ff ;
+    border: dashed black;
+}
+.box2{ 
+    width: 40%;
+    height: 520px;
+    background-color:#ffc0cb ;
+    border: dashed black;
+
+}
+
+
+/*-------SECONDA SEZIONE----------
+----------------------------------*/
