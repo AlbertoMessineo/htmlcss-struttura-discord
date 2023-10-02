@@ -94,3 +94,66 @@ header{
 
 /*-------SECONDA SEZIONE----------
 ----------------------------------*/
+
+
+
+/*-------TERZA SEZIONE-------------
+----------------------------------*/
+
+.odd{
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1{  
+    width: 60%;
+    height: 520px;
+    background-color:#1e90ff ;
+    border: dashed black;
+}
+.box2{ 
+    width: 40%;
+    height: 520px;
+    background-color:#ffc0cb ;
+    border: dashed black;
+
+}
+
+
+
+/*-------TERZA SEZIONE-------------
+----------------------------------*/
+
+
+
+
+
+
+/*-------QUARTA SEZIONE-------------
+----------------------------------*/
+
+
+
+.box1{  
+    width: 60%;
+    height: 520px;
+    background-color:#1e90ff ;
+    border: dashed black;
+}
+.box2{ 
+    width: 40%;
+    height: 520px;
+    background-color:#ffc0cb ;
+    border: dashed black;
+
+}
+
+
+
+
+/*-------QUARTA SEZIONE-------------
+----------------------------------*/
