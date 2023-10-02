@@ -28,13 +28,36 @@ header{
     height: 50px;
     margin-top: 20px ;
     margin-bottom: 20px;
-    border-color: black;
-    border: dashed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}    
+} 
+
+.flex-item{
+    border: dashed black;
+    height: 50px;
+}
+
+.flex-item.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;   
+}  
+.flex-item.left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;   
+}  
+
+.flex-item.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;   
+}   
    
 .sub-section{
     background-color: #00008b ;
@@ -79,9 +102,11 @@ header{
 
 .box1{  
     width: 60%;
-    height: 520px;
+    /* DEBUG */
+    height: 520px; 
     background-color:#1e90ff ;
     border: dashed black;
+    /* END DEBUG */
 }
 .box2{ 
     width: 40%;
@@ -103,9 +128,15 @@ header{
 .odd{
     background-color: #d3d3d3;
     display: flex;
-    flex-direction: row-reverse ;
     justify-content: center;
     align-items: center;
+}
+.container1.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -156,4 +187,35 @@ header{
 
 
 /*-------QUARTA SEZIONE-------------
+----------------------------------*/
+
+
+
+
+/*-------QUINTA SEZIONE-------------
+----------------------------------*/
+
+
+
+
+.odd1{
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3{
+    background-color: #228b22;
+    width: 1250px;
+    height: 925px;
+    border: dashed black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+/*-------QUINTA SEZIONE-------------
 ----------------------------------*/
