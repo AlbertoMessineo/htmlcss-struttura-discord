@@ -11,7 +11,6 @@
 
 /*---------PRIMA SEZIONE----------
 ----------------------------------*/
-
 header{
     background-color: #add8e6;
     display: flex;
@@ -19,8 +18,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-
-
 
 .box{
     background-color: #daa520;
@@ -77,14 +74,11 @@ header{
     height: 420px;
     border: dashed black;
 }
-
 /*---------PRIMA SEZIONE----------
 ----------------------------------*/
 
-
 /*-------SECONDA SEZIONE----------
 ----------------------------------*/
-
 
 .even{
     background-color: white;
@@ -113,13 +107,10 @@ header{
     height: 520px;
     background-color:#ffc0cb ;
     border: dashed black;
-
 }
-
 
 /*-------SECONDA SEZIONE----------
 ----------------------------------*/
-
 
 
 /*-------TERZA SEZIONE-------------
@@ -151,23 +142,13 @@ header{
     height: 520px;
     background-color:#ffc0cb ;
     border: dashed black;
-
 }
-
-
 
 /*-------TERZA SEZIONE-------------
 ----------------------------------*/
 
-
-
-
-
-
 /*-------QUARTA SEZIONE-------------
 ----------------------------------*/
-
-
 
 .box1{  
     width: 60%;
@@ -183,20 +164,12 @@ header{
 
 }
 
-
-
-
 /*-------QUARTA SEZIONE-------------
 ----------------------------------*/
 
 
-
-
 /*-------QUINTA SEZIONE-------------
 ----------------------------------*/
-
-
-
 
 .odd1{
     background-color: #d3d3d3;
@@ -205,7 +178,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 .box3{
     background-color: #228b22;
     width: 1250px;
@@ -215,7 +187,60 @@ header{
     margin-bottom: 50px;
 
 }
-
-
 /*-------QUINTA SEZIONE-------------
 ----------------------------------*/
+
+/*--------FOOTER---------------*/
+
+footer{
+    background-color: #23272a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1px solid white;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.big-col{
+    background-color: #f08080;
+    height: 600px;
+    width: 40%;
+    border: dashed white;
+    
+    
+}
+.col{
+    background-color: #20b2aa;
+    height: 600px;
+    width: 15%;
+    border: dashed white;
+}
+
+.sub-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+    height: 110px ;
+}
+.button{
+    background-color: #ffb6c1;
+}
+    
+/*--------FOOTER---------------*/
