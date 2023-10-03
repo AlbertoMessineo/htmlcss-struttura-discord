@@ -61,7 +61,9 @@ header{
     display: flex;
     justify-content: center;
     width: 100%;
+     /*DEBUG*/
     height: 520px ;
+     /*DEBUG*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,10 +71,12 @@ header{
 }
 
 .bigger-box{
+    /*DEBUG*/
     background-color: #ee82ee;
     width: 950px;
     height: 420px;
     border: dashed black;
+     /*END DEBUG*/
 }
 /*---------PRIMA SEZIONE----------
 ----------------------------------*/
@@ -104,9 +108,11 @@ header{
 }
 .box2{ 
     width: 40%;
+     /*DEBUG*/
     height: 520px;
     background-color:#ffc0cb ;
     border: dashed black;
+     /*END DEBUG*/
 }
 
 /*-------SECONDA SEZIONE----------
@@ -133,12 +139,14 @@ header{
 
 .box1{  
     width: 60%;
+     /*DEBUG*/
     height: 520px;
     background-color:#1e90ff ;
     border: dashed black;
 }
 .box2{ 
     width: 40%;
+     /*DEBUG*/
     height: 520px;
     background-color:#ffc0cb ;
     border: dashed black;
@@ -152,12 +160,14 @@ header{
 
 .box1{  
     width: 60%;
+     /*DEBUG*/
     height: 520px;
     background-color:#1e90ff ;
     border: dashed black;
 }
 .box2{ 
     width: 40%;
+     /*DEBUG*/
     height: 520px;
     background-color:#ffc0cb ;
     border: dashed black;
@@ -179,10 +189,12 @@ header{
     align-items: center;
 }
 .box3{
+     /*DEBUG*/
     background-color: #228b22;
     width: 1250px;
     height: 925px;
     border: dashed black;
+     /*END DEBUG*/
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -211,18 +223,22 @@ footer{
     margin-bottom: 40px;
 }
 .big-col{
+     /*DEBUG*/
     background-color: #f08080;
     height: 600px;
     width: 40%;
     border: dashed white;
+     /*END DEBUG*/
     
     
 }
 .col{
+     /*DEBUG*/
     background-color: #20b2aa;
     height: 600px;
     width: 15%;
     border: dashed white;
+     /*END DEBUG*/
 }
 /*--------FOOTER---------------*/
 
@@ -246,8 +262,10 @@ footer2{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+     /*DEBUG*/
     background-color: #7fffd4;
     height: 110px ;
+     /*END DEBUG*/
     width: 1250px;
     margin-top: 20px;
     margin-bottom: 20px;
